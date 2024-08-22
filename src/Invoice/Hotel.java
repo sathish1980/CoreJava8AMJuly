@@ -23,6 +23,7 @@ public class Hotel  extends SVBItem{
 					System.out.println("Hotel Exit");
 					hotelIdentifier=true;
 					FinalHotel=hotelName[i];
+					//invoicecalculation(ItemPrice,3);
 					return;
 				}
 			}

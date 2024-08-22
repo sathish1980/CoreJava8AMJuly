@@ -6,6 +6,7 @@ public class SVBItem extends SVBInvoice{
 
 	String[] Items = {"idly-10","dosa-20","poori-30"};
 	int ItemPrice=0;
+
 	public void GetItem()
 	{
 		boolean ItemExist =false;
@@ -40,6 +41,8 @@ public class SVBItem extends SVBInvoice{
 		// TODO Auto-generated method stub
 		SVBItem I = new SVBItem();
 		I.GetItem();
+		//SVBInvoice S = new SVBInvoice();
+		//I.invoicecalculation();
 	}
 
 }

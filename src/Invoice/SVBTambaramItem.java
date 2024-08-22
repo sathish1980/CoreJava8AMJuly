@@ -21,7 +21,7 @@ public class SVBTambaramItem extends SVBInvoice{
 				System.out.println("Item exist please enter the quatity:");
 				ItemPrice=Integer.parseInt(aftersplit[1]);
 				int totalQuantity = GetQuantity();
-				invoicecalcu\lation(ItemPrice,totalQuantity);
+				invoicecalculation(ItemPrice,totalQuantity);
 				break;
 			}
 		}

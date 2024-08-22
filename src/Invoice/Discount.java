@@ -13,4 +13,14 @@ public class Discount {
 		System.out.println("After discount you have to pay Rs. "+actualdiscountAmount);
 		return actualdiscountAmount;
 	}
+	
+	protected double getDiscount(int amount,double discountPercentage)
+	{
+		System.out.println("Your discount percentage is : "+discountPercentage +"%");
+		double discountAmount = amount*discountPercentage;
+		double actualdiscountAmount = amount- discountAmount;
+		System.out.println("Your discount amount is : "+discountAmount);
+		System.out.println("After discount you have to pay Rs. "+actualdiscountAmount);
+		return actualdiscountAmount;
+	}
 }
