@@ -2,7 +2,7 @@ package Invoice;
 
 import java.util.Scanner;
 
-public class B2BItem {
+public class B2BItem extends SVBInvoice{
 
 	String[] Items = {"tea","coffee","poori"};
 	
